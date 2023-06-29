@@ -8,6 +8,32 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="/action_page.php" method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" required>
+		<label for="email">Email</label>
+		<input type="text" id="email" required>
+		<label for="gender">gender</label>
+		<input type="radio" name="men" value="men">
+		<label for="men">men</label>
+		<input type="radio" name="female" value="female">
+		<label for="female">Female</label>
+		<input type="radio" name="others" value="others">
+		<label for="others">Others</label>
+		<label for="car brands">Car Brands</label>
+		<select name="cars" id="cars">
+			<option value="bmw">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">mercedez</option>
+		</select>
+		<label for="car age">car age</label>
+		<input type="text" id="carage" required>
+		<label for="date of purchase">Date Of Purchase</label>
+		<input type="text" id="dop" required>
+		<label for="password">Password</label>
+		<input type="text" id="password" required>
+		<button id="btn">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
